@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Match It</string>
+
+    <string name="timeCounter_text">Time Counter</string>
+    <string name="moveCounter_text">Move: </string>
+
+    <string name="play_button">Play</string>
+    <string name="image_description">Image</string>
+    //Alert Dialog Strings
+    <string name="home_button_text">Home</string>
+    <string name="play_again_text">Play Again</string>
+    <string name="sure_button_text">Are You Sure?</string>
+    <string name="exit_dialog_title">Exit</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    //score strings
+    <string name="scorer_name_text">High Scorer</string>
+    <string name="score_text">Score</string>
+    <string name="no_scorer_string">No High Scorer</string>
+    <string name="high_score_button">Leader Board</string>
+
+</resources>

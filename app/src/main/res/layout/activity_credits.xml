@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/wood"
+    >
+
+<!--    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:text="M. Irfanul Kalam Chowdhury"
+        android:textSize="50dip"
+        android:textColor="#FFFF"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:layout_marginTop="40dp"
+        android:text="   Misbah Ahmad
+     Chowdhury"
+        android:textSize="50dip"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:fontFamily="serif"
+        android:text="   Thanks for playing our
+                   game."
+        android:textSize="30dip"
+        android:textColor="#FFFF"
+        />-->
+
+</LinearLayout>

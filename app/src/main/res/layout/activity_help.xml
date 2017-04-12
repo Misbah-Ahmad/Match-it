@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/wood"
+        android:weightSum="1">
+
+<!--
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="      Arrange The pictures of the
+        following image by moving
+        blocks adjacent to Blank."
+        android:textSize="25dip"
+        android:textColor="#FFFF"
+        />
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="255dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60px"
+        android:background="@drawable/iiuccm"
+        android:id="@+id/TitleImage"
+        android:layout_weight="0.44">
+    </ImageView>
+-->
+
+</LinearLayout>

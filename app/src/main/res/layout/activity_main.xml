@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/wb6">
+    <!--tools:context="com.example.fahimspc.gametest">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="@dimen/thirty_dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top"
+            android:layout_height="match_parent"
+            android:id="@+id/TitleImage"
+            android:contentDescription="@string/image_description"
+            android:background="@drawable/newlogo">
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+  <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/play_button"
+        android:textColor="#FFFF"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:paddingTop="@dimen/fifteen_dp"
+        android:paddingBottom="@dimen/fifteen_dp"
+        android:paddingLeft="@dimen/fortyfive_dp"
+        android:paddingRight="@dimen/fortyfive_dp"
+        android:textSize="25sp"
+        android:background="@drawable/btnbg"
+        android:id="@+id/PlayButton">
+
+    </Button>
+  <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/thirty_dp"
+        android:text="@string/high_score_button"
+        android:textColor="#FFFF"
+        android:paddingTop="@dimen/fifteen_dp"
+        android:paddingBottom="@dimen/fifteen_dp"
+        android:paddingLeft="@dimen/twenty_dp"
+        android:paddingRight="@dimen/twenty_dp"
+        android:textSize="25sp"
+        android:background="@drawable/btnbg"
+        android:onClick="leaderBoard"
+        android:id="@+id/highScoreButton">
+
+    </Button>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

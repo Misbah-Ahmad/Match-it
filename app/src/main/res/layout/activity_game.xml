@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wcmbg"
+    tools:context="com.example.fahimspc.gametest.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:paddingTop="@dimen/ten_dp"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/timeCounter_text"
+                android:textColor="#FFFF"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/fifteen_dp"
+                android:paddingStart="@dimen/fifteen_dp"
+                android:layout_marginBottom="@dimen/eight_dp"
+                style="@android:style/TextAppearance.DeviceDefault.Large"
+                android:id="@+id/timeCounter"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/moveCounter_text"
+                android:textStyle="bold"
+                style="@android:style/TextAppearance.DeviceDefault.Large"
+                android:paddingLeft="@dimen/fifteen_dp"
+                android:paddingStart="@dimen/fifteen_dp"
+                android:textColor="#FFFF"
+                android:id="@+id/moveCounter"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="@dimen/zero_dp"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/fifteen_dp"
+            android:paddingEnd="@dimen/fifteen_dp"
+            android:paddingLeft="@dimen/fifteen_dp"
+            android:paddingStart="@dimen/fifteen_dp"
+            android:paddingBottom="@dimen/fifteen_dp"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/iiuccm"
+                android:id="@+id/hintImage"
+                android:contentDescription="DESCRIPTION" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dp"
+        android:padding="@dimen/thirty_dp"
+        android:paddingTop="@dimen/fortyfive_dp"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:id="@+id/buttonOne"
+                android:layout_weight="1"
+                android:onClick="move"/>
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonTwo"
+                android:onClick="move"/>
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonThree"
+                android:onClick="move"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonFour"
+                android:onClick="move"/>
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonFive"
+                android:onClick="move"/>
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonSix"
+                android:onClick="move"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero_dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonSeven"
+                android:onClick="move"/>
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonEight"
+                android:onClick="move"/>
+
+            <Button
+                android:layout_width="@dimen/zero_dp"
+                android:layout_height="match_parent"
+                style="?android:buttonBarButtonStyle"
+                android:layout_weight="1"
+                android:id="@+id/buttonNine"
+                android:onClick="move"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

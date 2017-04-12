@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wcmbg"
+    android:gravity="center"
+    tools:context="com.example.fahimspc.gametest.ScoreActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scorer_name_text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            style="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:padding="@dimen/fifteen_dp"
+            android:id="@+id/scorerNameText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_text"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:gravity="center"
+            style="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textColor="@color/white"
+            android:layout_below="@id/scorerNameText"
+            android:padding="@dimen/fifteen_dp"
+            android:id="@+id/scoreText"/>
+
+
+</RelativeLayout>
